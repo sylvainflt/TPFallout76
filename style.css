@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "1942";
+    src: url(./1942/1942.ttf);
+}
+
+@font-face {
+    font-family: "veteran";
+    src: url(./veteran/veteran\ typewriter.ttf);
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(./roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: "robotoGras";
+    src: url(./roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "robotoLight";
+    src: url(./roboto/Roboto-Light.ttf);
+}
+h1{
+    font-family: "1942";
+    font-size: 55px;
+    padding: 70px 0px 0px 70px;
+}
+
+.txt p{
+    font-family: "veteran";
+    font-size: 40px;
+    padding: 70px 0px 0px 70px;
+}
+
+#page{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#tete{
+    background-image: url("fallout_76.jpg");
+    background-position: center;
+    width: 1000px;
+    height: 500px;
+    margin: 50px 75px;
+}
+
+.txt{
+    width: 400px;
+    height: 300px;
+}
+
+h1, p{
+color: aliceblue;
+}
+
+#line{
+    height: 500px;
+    width: 10px;
+    background-color: goldenrod;
+    display: inline-block;
+    margin: 10px 100px;
+}
+
+#paragraphe{ 
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    text-align: justify;
+    width: 700px;
+    height: 500px;
+}
+
+.un p,li{
+    font-family: "robotoGras";
+    font-size: 20px;
+    color: black;
+}
+
+
+.deux p{
+    font-family: "robotoLight";
+    font-size: 20px;
+    color: black;
+}
+
+.bold{
+    font-family: "roboto";
+}
+
+.jaune{
+    font-family: "roboto";
+    color: goldenrod;
+    font-style: italic;
+}
+
+.sept{
+    color: goldenrod;
+}
+
+#bas{
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+#roue{
+  position: relative; 
+  left: 700px;  
+  bottom: 113px;
+}
+
+#roue p{
+    position: relative;
+    bottom: 135px;
+    right: 515px;
+    font-family: "robotoGras";
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}
